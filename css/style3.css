@@ -22,15 +22,15 @@ header{
     padding: 10px 10px;
     color:black;
 }
+/*adjusting header to top*/
 .fixed-header{
     top: 0;
 }
+/*adjusting footer to bottom*/
 .fixed-footer{
     bottom: 0;
 }  
-.fixed-footer{
-    padding-bottom: 10px;
-}
+/*adjusting header to left */
 header h1,h3{
     margin-left: 20px;
     
