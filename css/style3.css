@@ -3,9 +3,9 @@ body{
     margin:0px; 
 }
 
-
+/*header properties*/
 header{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;/*google fonts*/
     float: left;
     color: black;
     padding: 12px;
@@ -13,6 +13,8 @@ header{
     font-size: 18px; 
     line-height: 25px;
 }
+
+/*making the header and footer fixed*/
 .fixed-header, .fixed-footer{
     width: 100%;
     position: fixed;        
@@ -20,7 +22,12 @@ header{
     padding: 10px 10px;
     color:black;
 }
-
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}  
 .fixed-footer{
     padding-bottom: 10px;
 }
@@ -28,39 +35,21 @@ header h1,h3{
     margin-left: 20px;
     
 }
+/*adjusting header text */
 header h1{
     margin-top:10px;
 }
 header h3{
     margin-top:4px;
 }
-.fixed-header{
-    top: 0;
-}
-.fixed-footer{
-    bottom: 0;
-}    
-
+  
+/*navigation properties*/
 .navbar{
-    
     background:white;
     color:grey;
-    margin-left:1100px;
     float:right;
 }
-
-.container{
-    width: 100%;
-    margin:auto;
-}
-.container p,li,h2{
-    
-    line-height: 15px;
-    font-family: 'Dosis', sans-serif;
-    margin-left:300px;
-    margin-right:300px; 
-}
-
+/*nav bar anchor tag properties*/
 nav a{
     text-decoration:none;
     padding:10px;
@@ -68,17 +57,31 @@ nav a{
     font-size: 20px;
     color:grey; 
 }
-
+/*nav hover*/
 a:hover{
     color:black;
     font-size: 25px;
 }
+/*hero image prop*/
 img{
-    margin-left:300px;
     margin-top:150px;
+    margin-left:10px;
 }
+/*body after hero image -properties*/
+.container{
+    width: 100%;
+    margin:auto;
+}
+/*properties of article*/
+.container p,li,h2{
+    margin-left:10px;
+    line-height: 15px;
+    font-family: 'Dosis', sans-serif;
+   
+}
+
 .responsive{
-    width: 65%;
+    width: 80%;
     height: auto;
 }
 footer{
@@ -89,20 +92,23 @@ margin-left:0px;
 body{
     margin:150px 0px 100px 0px;
 }
+
+/* width */
 ::-webkit-scrollbar {
     width: 15px;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
 	    
 }
- 
+ /* Handle */
 ::-webkit-scrollbar-thumb {
     background:lightgray; 
     
 }
-
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background:darkgray; 
 }
@@ -111,19 +117,20 @@ body{
     background:black;
     
 }
-
+/* social Links*/
 i{
     margin-right:20px;
     float:right;
 }
 
+/*using flex for wrapping*/
 .flex-container{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     
   }
-
+/*using flex for img dimensions*/
 .flex-container img {
     width: 300px;
     height: 300px;
