@@ -1,18 +1,21 @@
 
 body{
-    margin:0px; 
+    margin:0px;
+    
 }
-
 /*header properties*/
 header{
     font-family: 'Indie Flower', cursive;/*google fonts*/
     float: left;
-    color: black;
-    padding: 12px;
+    color:lightyellow;
+    padding: 5px;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
+    box-shadow: 2px 4px;
+    border:1px;
 }
+
 
 /*making the header and footer fixed*/
 .fixed-header, .fixed-footer{
@@ -62,11 +65,8 @@ a:hover{
     color:black;
     font-size: 25px;
 }
-/*hero image prop*/
-img{
-    margin-top:150px;
-    margin-left:10px;
-}
+
+
 /*body after hero image -properties*/
 .container{
     width: 100%;
@@ -74,15 +74,16 @@ img{
 }
 /*properties of article*/
 .container p,li,h2{
-    margin-left:10px;
-    line-height: 15px;
+    margin-left:30px;
+    line-height: 18px;
     font-family: 'Dosis', sans-serif;
    
 }
-
 .responsive{
-    width: 80%;
+    width: 95%;
     height: auto;
+    margin-left:20px;
+    margin-top:40px;
 }
 footer{
 top:90%;
