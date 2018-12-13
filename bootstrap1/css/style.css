@@ -104,6 +104,7 @@ h3{
 footer{
   margin-right: 0%;
   padding-left: 40%;
-  background-color: lightgray;
+  background-color: white;
+  float:right;
 }
 
